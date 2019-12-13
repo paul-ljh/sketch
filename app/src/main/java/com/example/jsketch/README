@@ -1,0 +1,18 @@
+Jiahui Li
+20609545
+
+Operating System?
+- MacOS Catalina
+
+Android Studio Version
+- 3.5.2
+
+Used Android SDK API 29 and Pixel C (Google tablet) AVD for testing
+
+- there are two xml files named portrait and landscape that I switch upon orientation change
+
+- Shape.java is the model for individual shapes on canvas, providing interface for click detection, coordination transformation etc.
+
+- Model.java holds all shape objects currently on canvas, handles tool/color selecting, shape creation
+
+- CanvasView.java is a View class represents the Canvas View as the name suggests, it main job is to detect touch event and draw all shapes onto the canvas.

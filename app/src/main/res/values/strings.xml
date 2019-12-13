@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JSketch</string>
+    <string name="button">Button</string>
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="yellow">TODO</string>
+    <string name="line">line</string>
+    <string name="circle">circle</string>
+    <string name="rect">rect</string>
+    <string name="erase">erase</string>
+</resources>

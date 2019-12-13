@@ -1,0 +1,7 @@
+A vector-drawing android app, consisting of a tool palette, a color palette and a canvas, allows a user to select drawing properties, and draw shapes on-screen.
+
+- Shape.java is the model for individual shapes on canvas, providing interface for click detection, coordination transformation etc.
+
+- Model.java holds all shape objects currently on canvas, handles tool/color selecting, shape creation
+
+- CanvasView.java is a View class represents the Canvas View as the name suggests, it main job is to detect touch event and draw all shapes onto the canvas.

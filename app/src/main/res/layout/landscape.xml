@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/landscape_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/toolbar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/red"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:contentDescription="@string/red"
+            app:srcCompat="@android:color/holo_red_dark" />
+
+        <ImageButton
+            android:id="@+id/green"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:contentDescription="@string/green"
+            app:srcCompat="@android:color/holo_green_dark" />
+
+        <ImageButton
+            android:id="@+id/blue"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:contentDescription="@string/yellow"
+            app:srcCompat="@android:color/holo_blue_dark"
+            tools:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/line"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:contentDescription="@string/line"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/line"
+            tools:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/circle"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:contentDescription="@string/circle"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/circle"
+            tools:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/rect"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:contentDescription="@string/rect"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:srcCompat="@drawable/rect"
+            tools:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/erase"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:backgroundTint="@android:color/background_light"
+            android:contentDescription="@string/erase"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/erase" />
+
+        <ImageButton
+            android:id="@+id/select"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:contentDescription="@android:string/selectAll"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/select" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/canvas_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>
